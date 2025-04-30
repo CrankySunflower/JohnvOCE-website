@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: rgb(213, 245, 255);
+}
+.intro{
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    padding: 5px;
+    text-align: center;
+    margin: 0 auto;
+    width: 40%;
+    height: 25px;
+    font-family: "arial";
+    opacity: 0.5;
+    font-weight: bold;
+    background-color: rgb(126, 84, 126);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.title {
+    font-size: 100px;
+    font-weight: bold;
+    color: #4E1764;
+    padding: 5px;
+    text-align: center;
+    margin: 1;
+    width: auto;
+    font-family: 'Brush Script MT', cursive;
+    text-shadow: 2px 2px 4px #1b1b1b;
+    background-image: url("https://preview.redd.it/wooper-wallpaper-new-channel-banner-go-brrrr-v0-m3s5pm2lxwae1.png?auto=webp&s=c5c24074dc03ade5a251b7e84e7a24aab3a1935a");
+    background-position-y: 55%;
+    background-size: cover;
+}
+
+.about-me {
+    background-color: rgb(126, 84, 126);
+    color: rosybrown;
+    width: 50%;
+    height: auto;
+    margin: 0 auto;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.about-me h2 {
+    border-bottom: 2px dotted rosybrown;
+}
+
+.about-me p {
+ border-bottom: 2px dotted rosybrown;
+
+}
+
+.about-me a {
+    color: #4E1764;
+    font-family: 'Brush Script MT';
+    font-size: 30px;
+    margin: 2 auto;
+    padding: 10px;
+    width: 50%;
+    text-decoration: none;
+    text-shadow: 1px 1px 2px #2e2e2e;
+    height: 50px;
+}
+
+a:hover {
+    color:rgb(202, 255, 255)
+}
+
+hr {
+    color : rosybrown
+}
+
+a img {
+    width: auto;
+    height: 100px;
+    border-radius: 10px;
+    margin: 0 auto;
+    display: block;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+img:hover {
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+
+footer {
+    text-align: center;
+    margin: auto;
+    width: 20%;
+    height: auto;
+    padding: -10px;
+}
+
+a[href*="crankysunflowers"] {
+    text-decoration: none;
+    color: black;
+    font-family: arial;
+    font-size: 12px;
+    background-color: rgba(155, 155, 155, 0.568);
+    border-radius: 100px;
+    width: 200px;
+    height: 30px;
+    padding: 5px;
+    margin: 0 auto;
+}
+
+footer img {
+    width: 15px;
+    height: 15px;
+    border-radius: 10px;
+    margin: 0 auto;
+    display: block;
+    position: relative;
+    top: 17px;
+    left: -75px;
+}
